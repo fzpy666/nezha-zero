@@ -1,6 +1,6 @@
 module github.com/railzen/nezha-zero/agent
 
-go 1.26.6
+go 1.26.9
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.7
@@ -21,9 +21,9 @@ require (
 	github.com/shirou/gopsutil/v4 v4.24.10
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/viper v1.19.0
-	golang.org/x/net v0.55.0
-	golang.org/x/sys v0.46.0
-	google.golang.org/grpc v1.82.1
+	golang.org/x/net v0.60.0
+	golang.org/x/sys v0.48.0
+	google.golang.org/grpc v1.83.2
 	google.golang.org/protobuf v1.36.11
 	sigs.k8s.io/yaml v1.4.0
 )
@@ -66,11 +66,11 @@ require (
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.9.0 // indirect
-	golang.org/x/crypto v0.52.0 // indirect
+	golang.org/x/crypto v0.57.0 // indirect
 	golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842 // indirect
-	golang.org/x/sync v0.21.0 // indirect
-	golang.org/x/term v0.43.0 // indirect
-	golang.org/x/text v0.39.0 // indirect
+	golang.org/x/sync v0.23.0 // indirect
+	golang.org/x/term v0.46.0 // indirect
+	golang.org/x/text v0.42.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260630182238-925bb5da69e7 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect

@@ -1,6 +1,6 @@
 module github.com/railzen/nezha-zero
 
-go 1.26.6
+go 1.26.9
 
 require (
 	code.cloudfoundry.org/bytefmt v0.0.0-20240425163905-bcdc1ad063ea
@@ -11,7 +11,7 @@ require (
 	github.com/gin-gonic/gin v1.12.0
 	github.com/glebarez/sqlite v1.11.0
 	github.com/google/go-github/v75 v75.0.0
-	github.com/gorilla/websocket v1.5.1
+	github.com/gorilla/websocket v1.5.3
 	github.com/hashicorp/go-uuid v1.0.3
 	github.com/jinzhu/copier v0.4.0
 	github.com/json-iterator/go v1.1.12
@@ -32,13 +32,13 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/tidwall/gjson v1.18.0
 	github.com/xanzy/go-gitlab v0.103.0
-	golang.org/x/crypto v0.53.0
-	golang.org/x/net v0.56.0
+	golang.org/x/crypto v0.57.0
+	golang.org/x/net v0.60.0
 	golang.org/x/oauth2 v0.36.0
-	golang.org/x/sync v0.21.0
-	golang.org/x/text v0.39.0
+	golang.org/x/sync v0.23.0
+	golang.org/x/text v0.42.0
 	golang.org/x/time v0.5.0
-	google.golang.org/grpc v1.82.1
+	google.golang.org/grpc v1.83.2
 	google.golang.org/protobuf v1.36.11
 	gopkg.in/yaml.v3 v3.0.1
 	gorm.io/gorm v1.25.10
@@ -93,10 +93,10 @@ require (
 	github.com/ugorji/go/codec v1.3.1 // indirect
 	go.mongodb.org/mongo-driver/v2 v2.5.0 // indirect
 	golang.org/x/arch v0.22.0 // indirect
-	golang.org/x/mod v0.37.0 // indirect
-	golang.org/x/sys v0.46.0 // indirect
-	golang.org/x/tools v0.47.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20260414002931-afd174a4e478 // indirect
+	golang.org/x/mod v0.41.0 // indirect
+	golang.org/x/sys v0.48.0 // indirect
+	golang.org/x/tools v0.49.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260526163538-3dc84a4a5aaa // indirect
 	modernc.org/libc v1.74.1 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.11.0 // indirect
